@@ -1,7 +1,9 @@
 # Secrets / local config
 .env
 
-# Local database
+# Local state (chat ids, button URLs, db)
+saved_chats.json
+link_buttons.json
 *.db
 
 # Python
@@ -12,3 +14,4 @@ venv/
 env/
 *.egg-info/
 .pytest_cache/
+.ruff_cache/

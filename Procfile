@@ -1,1 +1,2 @@
-worker: python main_bot.py
+worker: python listener.py
+web: python web_dashboard.py
